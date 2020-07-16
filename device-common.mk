@@ -642,7 +642,7 @@ PRODUCT_PACKAGES += \
     libmm-qcamera
 
 # GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/gcam.mk)
+$(call inherit-product, packages/apps/GoogleCamera/config.mk)
 
 # DRM
 PRODUCT_PACKAGES += \
